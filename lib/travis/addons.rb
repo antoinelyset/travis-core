@@ -13,6 +13,7 @@ module Travis
     require 'travis/addons/sqwiggle'
     require 'travis/addons/webhook'
     require 'travis/addons/slack'
+    require 'travis/addons/xmpp'
 
     class << self
       def register
